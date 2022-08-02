@@ -35,7 +35,7 @@ conda init <SHELL_NAME>
 ```
 >eg.use any one of the shell like conda init bash OR conda init cmd.exe
 
-## Git Commands(Frequently Used)
+## Git Commands (Frequently Used)
 
 To look status of changes/commit/untracked in the file:
 ```
@@ -79,14 +79,14 @@ git remote -v
 2. HEROKU_API_KEY = Key is in bottom in setting 
 3. HEROKU_APP_NAME = app name in Heroku app
 
-## DOCKER COMMANDS( Frequently used )
+## Docker Commands ( Frequently used )
 To run it locally all the command you need to download the Docker app in your pc/laptop.
 
 To build docker image
 ```
 docker build -t <image_name>:<tagname> .
 ```
-> Note: Image name for docker must be lowercase and dont forget dot(.) after <tagname>
+> Note: Image name for docker must be lowercase and dont forget dot(.) after tagname
 
 To list docker image
 ```
@@ -95,7 +95,7 @@ docker images
 
 Run docker image
 ```
-docker run -p 5000:5000 -e PORT=5000 f8c749e73678
+docker run -p 5000:5000 -e PORT=5000 <image_id>
 ```
 
 To check running container in docker
