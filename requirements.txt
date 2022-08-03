@@ -1,2 +1,10 @@
+numpy
+pandas
 Flask
 gunicorn
+sklearn
+PyYAML
+evidently
+dill
+matplotlib
+-e .
