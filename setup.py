@@ -12,6 +12,8 @@ HYPHEN_E_DOT="-e ."
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 
+
+# function to fetch list of libraries from requirements.txt
 def get_requirements_list() -> List[str]:
     """
     Description: This function is going to return a list of required libraries
