@@ -8,7 +8,7 @@ training_pipeline_config:
 
 
 data_ingestion_config:
-  dataset_download_url: https://www.kaggle.com/datasets/himanshupoddar/zomato-bangalore-restaurants/download
+  dataset_download_url: https://github.com/Ekshiv/handson_dataset/raw/main/zomato-bangalore-restaurants/restaurant.zip
   raw_data_dir: raw_data
   tgz_download_dir: tgz_data
   ingested_dir: ingested_data
